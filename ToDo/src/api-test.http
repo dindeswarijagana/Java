@@ -1,0 +1,13 @@
+### Add a new book
+POST http://localhost:8080/add-book
+Content-Type: application/json
+
+{
+  "title": "Spring Boot in Action",
+  "author": "Craig Walls",
+  "price": 899
+}
+
+
+### Delete a book by title
+DELETE http://localhost:8080/delete-book/Spring Boot
